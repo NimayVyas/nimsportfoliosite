@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.jpeg";
+import project5 from "../assets/project5.jpeg";
 
 const Projects = () => {
   return (
@@ -26,7 +29,7 @@ const Projects = () => {
         </div>
         <div
           name="projectlist"
-          className="max-w-[860px] text-center text-gray-200 grid grid-cols-1 sm:grid-cols-3 gap-8 px-4="
+          className="sm:max-w-[860px] max-w-[300px] text-center text-gray-200 grid grid-cols-1 sm:grid-cols-3 gap-8 px-4="
         >
           <ProjectItem
             name="Bitcoin Sentiment Tracker"
@@ -36,12 +39,12 @@ const Projects = () => {
           <ProjectItem
             name="Hate Crime News Application"
             technologies="Technologies: Koitlin, Android Studio, Firebase."
-            image={project1}
+            image={project2}
           />
           <ProjectItem
             name="Medical Information Survey"
             technologies="Technologies: HTML, CSS, Javascript, ExpressJS, NodeJS."
-            image={project1}
+            image={project3}
           />
           <ProjectItem
             name="Bitcoin Sentiment Tracker"
@@ -49,13 +52,13 @@ const Projects = () => {
             image={project1}
           />
           <ProjectItem
-            name="Bitcoin Sentiment Tracker"
-            technologies="Python, NumPy, MatPlot, Git"
-            image={project1}
+            name="Question Answering System"
+            technologies="Technologies: Python, NumPy, PyTorch, Github"
+            image={project5}
           />
           <ProjectItem
-            name="Bitcoin Sentiment Tracker"
-            technologies="Python, NumPy, MatPlot, Git"
+            name="HackUMBC Tile Game System"
+            technologies="Technologies: Java, Java Canvas, Github"
             image={project1}
           />
         </div>
